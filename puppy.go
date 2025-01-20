@@ -1,6 +1,8 @@
 package puppy
 
 import (
+	"fmt"
+
 	"github.com/marius-chirila/dog"
 )
 
@@ -18,4 +20,8 @@ func BigBark() string {
 
 func BigBarks() string {
 	return dog.WhenGrowUp(Barks())
+}
+
+func DifferentTag() {
+	fmt.Println("Added a tag!")
 }
